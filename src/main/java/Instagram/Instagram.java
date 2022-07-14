@@ -23,8 +23,8 @@ public class Instagram {
         return this.userList;
     }
 
-    public void setUserList(List<User> userList1) {
-        this.userList = userList1;
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
 //        for (User user : this.userList) {
 //            System.out.println(user.getUserName());
 //        }

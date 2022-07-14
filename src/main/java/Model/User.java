@@ -34,6 +34,7 @@ public class User implements IObserver {
     @Override
     public void appendFeed(Post post) {
         for(User follower:this.followers){
+            System.out.println("Follower named " + follower.userName + " of User " + this.userName + " got post " + post.getContent());
             follower.appendFeed(post);
         }
     }
